@@ -8,7 +8,7 @@ const Blogs = async ({
 }) => {
   const { filter } = await searchParams;
 
-  const unsortedBlogs = getBlogs();
+  const unsortedBlogs = await getBlogs();
   const sortedBlogs = [...unsortedBlogs].sort(
     (a, b) => (b.likes ?? 0) - (a.likes ?? 0),
   );

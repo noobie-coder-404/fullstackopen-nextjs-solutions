@@ -12,7 +12,7 @@ export const createBlog = async (formData: FormData) => {
     typeof url === "string" &&
     typeof author === "string"
   ) {
-    addBlog({ title, url, author });
+    await addBlog({ title, url, author });
   }
   revalidatePath("/blogs");
 
@@ -22,7 +22,7 @@ export const createBlog = async (formData: FormData) => {
 export const updateLikes = async (formData: FormData) => {
   const id = formData.get("id");
   if (id) {
-    changeLikes(Number(id));
+    await changeLikes(Number(id));
     revalidatePath("/blogs");
     revalidatePath(`/blogs/${id}`);
   }

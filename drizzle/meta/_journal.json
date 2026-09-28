@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1790378230583,
+      "tag": "0000_wise_gamora",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1790379304674,
+      "tag": "0001_fluffy_warstar",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1790591287736,
+      "tag": "0002_plain_firelord",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1790594405212,
+      "tag": "0003_moaning_legion",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1790606436203,
+      "tag": "0004_ordinary_runaways",
+      "breakpoints": true
+    }
+  ]
+}
