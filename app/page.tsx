@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Homepage from "@/app/homepage.mdx";
 
 export default function Home() {
   return (
-    <div>
-      <h2>Blogs app</h2>
+    <div className="max-w-2xl mx-auto p-6 markdown">
+      <Homepage />
     </div>
   );
 }

@@ -36,6 +36,27 @@
       "when": 1790606436203,
       "tag": "0004_ordinary_runaways",
       "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1790714991375,
+      "tag": "0005_outgoing_tyger_tiger",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1790970259208,
+      "tag": "0006_uneven_johnny_blaze",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1791012812042,
+      "tag": "0007_omniscient_madame_masque",
+      "breakpoints": true
     }
   ]
 }
